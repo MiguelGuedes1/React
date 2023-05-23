@@ -8,46 +8,12 @@ import DetalhesCarro from './components/DetalhesCarro'
 import { Fragment } from 'react'
 import Fragments from './components/Fragments'
 import Container from './components/Container'
-import UserDetails from './components/UserDetails'
 
 
 function App() {
-
-  const users =[
-    {
-    id:1,
-    nome:"Miguel",
-    idade:32,
-    profissao:"Dev FullStack"
-    },
-
-    {
-    id:2,
-    nome:"Sara",
-    idade:17,
-    profissao:"Dev FrontEnd"
-    },
-
-    {
-    id:3,    
-    nome:"Raul",
-    idade:29,
-    profissao:"Dev Back End"
-    },
-
-    {
-    id:4,    
-    nome:"Dolores",
-    idade:17,
-    profissao:"Designer"
-    }
-]
-
   return (
 <div className="App">
         <h1>Avançando com react</h1>
-
-    
        
        { /* inserir imagens do public */ }
           <div>
@@ -86,19 +52,6 @@ function App() {
           <Container> 
                 <p> E este é o conteudo children</p>
            </Container>
-
-           { /* User Details exercicio*/}
-           
-           {users.map((user)=>(
-              <UserDetails 
-              key={user.id}
-              nome={user.nome}
-              idade={user.idade}
-              profissao={user.profissao}
-
-              />
-           ))}
-         
 
 
 
