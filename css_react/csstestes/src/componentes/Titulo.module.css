@@ -1,0 +1,11 @@
+.titulo {
+    color: aqua;
+    padding: 2rems;
+    background-color: black;
+}
+
+.titulo_vermelho {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+}
