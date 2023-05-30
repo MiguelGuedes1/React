@@ -1,0 +1,24 @@
+.start h1 {
+    font-size: 3.5rem;
+}
+
+.start p {
+    margin-bottom: 2rem;
+    color: #ecfa00;
+}
+
+.start button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F2F2F2;
+    color: #333333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start button:hover {
+    background-color: rgb(0, 0, 0)
+}
