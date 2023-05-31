@@ -20,7 +20,7 @@ function App() {
   const [gameStage,setGameStage]=useState(stages[0].name)  // definir o estado/pagina em qual o jogo se encontra
   const [words]=useState(wordsList)  // palavras usadas no jogo
   const[pickedWord,setpickedWord]=useState("") // palavras seleccionadas
-  const [picketCategory,setpickedCategory]=useState("") // categorias seleccionadas
+  const [pickedCategory,setpickedCategory]=useState("") // categorias seleccionadas
   const[letters,setLetters]=useState([]) // letras seleccionadas
   const [guessedLetters,setguessedLetters]=useState([])  // letras adivinhadas
   const [wrongLetters,setwrongLetters]=useState([])   // letras erradas pelo utilizador
@@ -86,7 +86,7 @@ return (
       <Game 
       verifyLetter={verifyLetter} 
       pickedWord={pickedWord}
-      picketCategory={picketCategory}
+      pickesCategory={pickedCategory}
       letters={letters}
       guessedLetters={guessedLetters}
       wrongLetters={wrongLetters}
